@@ -171,7 +171,7 @@ function modeStyle() {
   waver.style.display = "none";
   timeline.style.backgroundColor = "black";
   timeline.style.borderBottom = "5px solid var(--main-color)";
-  contactBG.style.backgroundImage = "url('../Images/contact2.jpg')";
+  contactBG.style.backgroundImage = `url('../Images/contact2.jpg')`;
   contactTA.forEach(function (element) {
     element.style.backgroundColor = "white";
   });
